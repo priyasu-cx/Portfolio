@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+  </head>
+  <body>
+    
+    <!---navbar--->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Priyasu Guin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">My Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <main class="container mt-3">
+      <section id="intro" class="d-flex justify-content-md-evenly flex-column-reverse align-items-center flex-md-row">
+      <!---introduction--->
+      <div class="d-flex justify-content-sm-center flex-column align-items-center flex-md-column justify-content-md-start align-items-md-start">
+        <br>
+        <h5>Hi 👋</h5>
+        <h1> I am Priyasu Guin</h1>
+        <p>A Computer Science enthusiast!</p>
+        <button class="btn btn-info btn-sm">My Cool resume</button>
+      </div>
+      <div class="d-md-none w-50 h-50">
+        <img src="image.jpeg" alt="Profile Picture" class="w-100 h-100 rounded-circle shadow bg-body rounded">
+      </div>
+      <div class="d-md-block d-none w-25 h-25">
+        <img src="image.jpeg" alt="Profile Picture" class="w-100 h-100 rounded-circle shadow bg-body rounded">
+      </div>
+      </section><hr>
+
+      <section id="skills" class="p-4 rounded ">
+      <!---My Skills--->
+      <h1 class="text-primary text-center">My Skills</h1>
+      <div class="d-md-none mt-5 d-flex justify-content-evenly">
+        
+        <i class="fab fa-html5 fa-3x" style="color: #f4470b" ></i>
+        <i class="fab fa-css3 fa-3x text-primary"></i>
+        <i class="fab fa-js-square fa-3x" style="color: #EFD81D"></i>
+        <i class="fab fa-python fa-3x" style="color: #326994"></i>
+      </div>
+
+      <div class="d-none mt-5 d-md-flex justify-content-evenly">
+
+        <div><i class="fab fa-html5 fa-6x" style="color: #f4470b" ></i>
+        <h5 class="text-center">HTML</h5></div>
+        <div><i class="fab fa-css3 fa-6x text-primary"></i>
+        <h5 class="text-center">CSS</h5></div>
+        <div><i class="fab fa-js-square fa-6x" style="color: #EFD81D"></i>
+        <h5 class="text-center">JavaScript</h5></div>
+        <div><i class="fab fa-python fa-6x" style="color: #326994"></i>
+        <h5 class="text-center">Python</h5></div>
+      </div>
+      </section><hr>
+
+      <section id="projects" class="p-4">
+      <!---My Projects--->
+      <h1 class="text-primary text-center">My Projects</h1>
+      <div class="d-flex flex-column flex-md-row justify-content-md-evenly mt-3 gap-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="chatbot">
+        <div class="card-body">
+          <h5 class="card-title">Chatbot</h5>
+          <p class="card-text">A simple chatbot that replies to generic questions and expressions like Hi, Hello, How are you ? etc.</p>
+          <a href="#" class="btn btn-primary">See Project</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.cut-the-knot.org/recurrence/TowersOfHanoi.jpg" class="card-img-top" alt="Towers of Hanoi" style="height: 20">
+        <div class="card-body">
+          <h5 class="card-title">GUI Towers of Hanoi Game</h5>
+          <p class="card-text">A simple game named Towers of Hanoi using Python and Tkinter Library.</p>
+          <a href="#" class="btn btn-primary">See Project</a>
+        </div>
+      </div>
+      </div>
+      </section><hr>
+
+      <section id="contact" class="py-4">
+      <!---Contact Me--->
+      <h1 class="text-center text-primary">Contact Me</h1>
+      <div class="row">
+        <div class="col-md">
+          <form class="mt-3">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Enter Your Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required placeholder="You Must Enter a Message!"></textarea>
+              <button type="submit" class="btn btn-primary mb-3 mt-4">Submit</button>
+            </div>
+          </form>
+        </div><br><br>
+        <div class="col-md">
+          <div class="mt-10 justify-content-start p-5">
+            <div>
+              <i class="fas fa-envelope-square fa-2x" style="color: #FF0000"></i>
+              <a href="mailto:priyasuguin.stu@gmail.com">
+              &nbsp;priyasuguin.stu@gmail.com</a>
+            </div><br>
+            <div>
+              <i class="fab fa-linkedin fa-2x" style="color: #0077B5"></i>
+              <a href="https://www.linkedin.com/in/priyasu-guin-9428441ba/">
+              &nbsp;Go to my LinkedIn Profile</a><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
