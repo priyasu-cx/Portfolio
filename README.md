@@ -24,3 +24,5 @@ href=
 be</a>
 <li><a href=
 "https://github.com/shapeai">GitHub</a>
+
+  Hosted on : <a href="https://priyasu-cx.github.io/Portfolio/index.html">https://priyasu-cx.github.io/Portfolio/index.html</a>
